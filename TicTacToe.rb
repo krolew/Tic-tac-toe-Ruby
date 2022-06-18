@@ -1,4 +1,3 @@
-
 class Game
     @@board = [
     [1, 2, 3],
@@ -117,7 +116,5 @@ until (player2_sign.length == 1 && player2_sign != player1_sign)
     player1_sign = gets.chomp
 end
 player2 = Player.new(player2_name, player2_sign)
-
-
 game = Game.new(player1, player2)
 game.startGame
